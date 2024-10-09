@@ -36,6 +36,11 @@ export default function Characters(props) {
                 )}
             </div>
             <span className='back-home' onClick={resetCharacters} > Volver a la home</span>
+
+             {/* Aquí está el footer */}
+             <footer className="footer">
+                <p>&copy; 2024 Romi Cardozo. Todos los derechos reservados.</p>
+            </footer>
         </div>
     );
 }
